@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-radius Previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+    <input type="number" name="" id="br1" placeholder="border-top-left-radius">
+    <input type="number" name="" id="br11" hidden placeholder="border-top-left-radius-2">
+    <input type="number" name="" id="br2" placeholder="border-top-right-radius">
+    <input type="number" name="" id="br22" hidden placeholder="border-top-right-radius-2">
+    <div id="field" class="field">
+        <div id="cssTxt" class="cssTxt"></div>
+    </div>
+    <input type="number" name="" id="br3" placeholder="border-bottom-left-radius">
+    <input type="number" name="" id="br33" hidden placeholder="border-bottom-left-radius-2">
+    <input type="number" name="" id="br4" placeholder="border-bottom-right-radius">
+    <input type="number" name="" id="br44" hidden placeholder="border-bottom-right-radius-2">
+    </main>
+    <fieldset>
+        <legend>select type of border-radius:4 or 8</legend>
+        <div>
+            <input type="radio" name="border-radius" id="4" value="4" checked>
+            <label for="4">4</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="border-radius" id="8" value="8">
+            <label for="8">8</label>
+        </div>
+       
+    </fieldset>
+    
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+
+
+.field{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 100px auto;
+    margin-top: 120px;
+    background-color: blue;
+}
+fieldset{
+    width: 300px;
+    margin: 50px auto;
+    
+}
+
+.cssTxt{
+    margin-top: -90px;
+    color: black;
+    background-color: #fff;
+}
+
+main {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border: 2px solid black;
+background-color: yellow;
+}
+
+input[type=number] {
+    position: absolute;
+    width: 200px;
+ 
+}
+input[type=radio]{
+    margin-top: 10px;
+    width: 50px;
+}
+#br1, #br2, #br3, #br4{
+    left: 0;
+   
+}
+#br11, #br22, #br33, #br44{
+    right: 0;
+}
+#br1,#br11{
+    top: 0;
+}
+#br2, #br22{
+    top: 20px;
+}
+#br3, #br33{
+    bottom: 20px;
+}
+#br4, #br44{
+    bottom: 0;
+}
